@@ -1,0 +1,26 @@
+{
+    "clientes":[
+        {
+            "id": 1,
+            "numerotarjeta": "5273112639487059",
+            "correo": "reno.susa@hotmail.com",
+            "nombre": "Camila",
+            "apellido_paterno": "Suastegui",
+            "apellido_materno": "Sánchez",
+            "fecha_de_nacimiento": "31 de dicembre 1997",
+            "contraseña": "1997Reno",
+            "credito":{
+                "monto": "+ 870.00",
+                "descripcion": "Walmart de México",
+                "fecha": "02 - Marzo - 2022"
+            },
+            "debito":{
+                "monto": "- 5670.00",
+                "descripcion": "Depósito",
+                "fecha": "24 - Marzo - 2022"
+            }
+            
+        }
+
+    ]
+}

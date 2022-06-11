@@ -1,0 +1,151 @@
+
+.acciones{
+    position: relative;
+    left: 70%;
+    width: 30%;
+    height: 100vh;
+    background-color: #2BC8B5;
+}
+.btnAccion{
+    font-size: 15px;
+    background: none;
+    border: none;
+    color: white;
+    position: relative;
+    margin: 9%;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    cursor: pointer;
+}
+.btnAccion img {
+    position: relative;
+    top: 4%;
+    left: -2%;
+}
+.btnAccion:after{
+    content: "";
+    position: absolute;
+    background-color: #FF94D7;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.6s;
+}
+.btnAccion:hover::after{
+    width: 100%;
+}
+.btnsAcciones{
+    background-color: none;
+    width: 50%;
+    display: flex;
+    z-index: 100;
+    position: relative;
+    top: 30%;
+    left: 23%;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.bancaImg{
+    position: relative;
+    top: 8.2%;
+    left: 13.2%;
+}
+.btnCerrarSesion{
+    border: none;
+    background-color: #f577c7;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    width: 30%;
+    padding: 2.5%;
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    text-align: center;
+    cursor: pointer;
+}
+.btnCerrarSesion:hover{
+    background-color: #f98cd5;
+}
+.storiBanca{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+}
+.banca h3{
+    position: absolute;
+    color: #384967;
+    top: 20%;
+    left: 3%;
+}
+.banca p {
+    position: absolute;
+    color: #384967;
+    top: 27%;
+    left: 3%;   
+}
+.tablaInicio{
+    background-color: #71DACD;
+    width: 62%;
+    height: 2%;
+    position: absolute;
+    top: 32%;
+    left: 3%;
+    padding: 1%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 25% 50% 25%;
+}
+.edoCuenta{
+    width: 61.1%;
+    position: relative;
+    bottom: 408px;
+    left: 3%;
+    height: 2%;
+    padding: .8%;
+    padding-left: 2%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 25% 50% 25%;
+    border: 1px solid #2BC8B5;
+    border-top: none;
+}
+.edoCuentaTotal{
+    width: 51.1%;
+    position: relative;
+    bottom: 408px;
+    left: 3%;
+    height: 2%;
+    padding: 1%;
+    padding-right: 11.8%;
+    border: 1px solid #2BC8B5;
+    border-top: none;
+    text-align: right;
+}
+.btnEdoCuentaDes{
+    position: relative;
+    font-weight: bold;
+    text-align: left;
+    bottom: 250px;
+    left: 42%;
+    background: none;
+    border: none;
+    color: #384967;
+    cursor: pointer;
+}
+
+.btnEdoCuenta{
+    position: relative;
+    font-weight: bold;
+    bottom: 250px;
+    left: 47%;
+    background: none;
+    border: none;
+    color: #384967;
+    cursor: pointer;
+}

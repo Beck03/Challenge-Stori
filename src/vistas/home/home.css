@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: white;
+    font-family: 'Rubik', sans-serif;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: #2BC8B5;
+}
+nav{
+    height: 13%;
+    background-color: white;
+    padding: 1%;
+}
+.stori{
+    position: relative;
+    width: 10%;
+    top: 28%;
+    left: 1.5%;
+    margin-right: 2%;
+}
+.btnNav{
+    background: none;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    color: #384967;
+    position: relative;
+    top: 13%;
+    left: 3%;
+    margin: 1%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.btnNav:after{
+    content: "";
+    position: absolute;
+    background-color: #FF94D7;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.6s;
+}
+.btnNav:hover::after{
+    width: 100%;
+}
+.btnIngresar{
+    border: none;
+    background-color: #00677F;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    width: 11%;
+    height: 47%;
+    position: relative;
+    top: 12%;
+    left: 20%;
+    text-align: center;
+    padding-bottom: .4%;
+    cursor: pointer;
+}
+.btnIngresar img{
+    margin: 0;
+    width: 12%;
+    position: relative;
+    top: 12%;
+    right: 8%;
+}    
+.btnIngresar:hover{
+    background-color: #00687fd2;
+}
+.solicitar{
+    padding-top: 4%;
+}
+.homeImg{
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 4%;
+}
+.home h3{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.tarjeta{
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    top: 50%;
+    left: 59%;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 3%;
+    color: #384967;
+    border-radius: 10px;
+}
+.home h5{
+    font-size: 23px;
+}
+.home input{
+    border: none;
+    border-radius: 5px;
+    padding: 2.5%;
+    background-color: rgba(255, 255, 255, 0.4); 
+    position: absolute;
+    margin-top: 4%;
+    width: 69%;
+    height: 7%;
+}
+.btnSolicitar{
+    border: none;
+    background-color: #f577c7;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    width: 50%;
+    padding: 2.5%;
+    position: absolute;
+    top: 45%;
+    margin-top: 9%;
+    margin-left: 12%;
+    text-align: center;
+    cursor: pointer;
+}
+.btnSolicitar:hover{
+    background-color: #f98cd5;
+}
+.tarjeta p{
+    font-size: 10px;
+    width: 55%;
+    position: absolute;
+    top: 74%;
+    left: 21%;
+    text-align: center;
+}
+.home p button{
+    border: none;
+    background: none;
+    font-size: 10px;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+textarea:focus, input:focus {
+    outline: none; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
